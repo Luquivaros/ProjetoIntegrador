@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Cadastro</h1>
+        <form action="processa_cadastro.php" method="post">
+            <textarea name="nome" placeholder="Nome" required></textarea>
+            <textarea name="email" placeholder="E-mail" required></textarea>
+            <textarea name="senha" placeholder="Senha" required></textarea>
+            <textarea name="confirmar_senha" placeholder="Confirmar Senha" required></textarea>
+            <button type="submit" class="btn-cadastrar">Cadastrar</button>
+        </form>
+        <a href="login.html" class="btn-voltar">Voltar</a>
+    </div>
+</body>
+</html>
